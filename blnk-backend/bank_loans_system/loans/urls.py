@@ -19,7 +19,6 @@ urlpatterns = [
     path('customer-loans/', customer.get_customer_requested_loans_status, name='customer-requested-loans'),
     path('edit-loan/', customer.request_loan_after_params_defined, name='request_loan_after_params_defined'),
 
-
     # personnel apis
     path('bank-personnel/create-loan-fund/', personnel.bank_personnel_create_loan_fund, name='bank-personnel-create-loan-fund'),
     path('bank-personnel/create-loan/', personnel.bank_personnel_create_loan, name='bank-personnel-create-loan'),

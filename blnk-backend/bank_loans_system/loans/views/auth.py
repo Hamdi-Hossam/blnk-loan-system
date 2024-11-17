@@ -7,7 +7,7 @@ from rest_framework_simplejwt.tokens import RefreshToken
 from ..serializers import UserSerializer
 
 @api_view(['POST'])
-@permission_classes([AllowAny])  # Allow anyone to access the login endpoint
+@permission_classes([AllowAny])
 def login_user(request):
     username = request.data.get('username')
     password = request.data.get('password')
@@ -15,7 +15,6 @@ def login_user(request):
     user = authenticate(username=username, password=password)
 
     if user is not None:
-        # Generate JWT tokens
         refresh = RefreshToken.for_user(user)
         access_token = refresh.access_token
         serializer = UserSerializer(user)

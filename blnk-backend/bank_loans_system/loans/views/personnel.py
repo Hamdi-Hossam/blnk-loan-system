@@ -4,7 +4,6 @@ from rest_framework import status
 from ..models import Loan
 from ..serializers import LoanSerializer, LoanFundSerializer
 from ..permissions import IsBankPersonnel
-from django.shortcuts import get_object_or_404
 
 
 @api_view(['POST'])
@@ -46,12 +45,10 @@ def bank_personnel_view_loan_requests(request):
     serializer = LoanSerializer(loan_requests, many=True)
     return Response(serializer.data,status=status.HTTP_200_OK)
 
-# Personnel defines loan details
 @api_view(['PUT'])
 @permission_classes([IsBankPersonnel])
 def define_loan_details(request, loan_id):
     loan = Loan.objects.get(id=loan_id, status=Loan.PENDING, is_params_defined=False)
-    # Update the loan details
     loan.min_amount = request.data.get("min_amount", loan.min_amount)
     loan.max_amount = request.data.get("max_amount", loan.max_amount)
     loan.min_duration = request.data.get("min_duration", loan.min_duration)
