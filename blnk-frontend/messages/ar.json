@@ -1,0 +1,174 @@
+{
+  "NotFound": {
+    "title": "404 - لم يتم العثور على الصفحة",
+    "description": "عفواً! يبدو أنك قد دخلت إلى منطقة مجهولة. الصفحة التي تبحث عنها غير موجودة.",
+    "homeBtn": "العودة إلى المنزل"
+  },
+  "LanguageSwitcher": {
+    "toggleLanguage": "تغير اللغة",
+    "en": "الإنجليزية",
+    "ar": "العربية"
+  },
+  "ModeSwitcher": {
+    "light": "الوضع النهارى",
+    "dark": "الوضع المظلم"
+  },
+  "Login": {
+    "title": "مرحبًا بعودتك",
+    "description": "ادخل تفاصيلك",
+    "username": "اسم المستخدم",
+    "usernamePlaceholder": "أدخل اسم المستخدم الخاص بك",
+    "usernameTooltip": "يمكنك استخدام اسم المستخدم أو رقم الهاتف أو عنوان البريد الإلكتروني الخاص بك",
+    "MinLength": "يجب أن يحتوي هذا الحقل على 3 أحرف على الأقل",
+    "MaxLength": "يجب أن يحتوي هذا الحقل على 50 حرفًا كحد أقصى",
+    "password": "كلمة المرور",
+    "passwordPlaceholder": "أدخل كلمة المرور الخاصة بك",
+    "loginBtn": "تسجيل الدخول",
+    "loginSuccess": "تم تسجيل الدخول بنجاح!",
+    "loginError": "حدث خطأ",
+    "noScriptsAllowed": "لا يمكنك كتابة أي كود",
+    "unexpectedError": "حدث خطأ غير متوقع"
+  },
+  "Logout": {
+    "logoutBtn": "تسجيل الخروج"
+  },
+  "Header": {
+    "userGreetings": "مرحبًا بعودتك،"
+  },
+  "Sidebar": {
+    "users": {
+      "title": "المستخدمين",
+      "titleCollapsed": "م",
+      "allUsers": "جميع المستخدمين"
+    },
+    "loanFunds": {
+      "title": "صناديق القروض",
+      "titleCollapsed": "ب",
+      "allLoanFunds": "طلب قرض",
+      "loans": "القروض",
+      "addLoanFund": "إضافة صندوق قرض",
+      "allSubaccounts": "جميع الحسابات الفرعية",
+      "headerUpload": "مطابقة الأعمدة"
+    },
+    "loanFundsProv": {
+      "allLoanFunds": "Loan Funds"
+    },
+    "requestedLoans": {
+      "title": "طلبات القروض"
+    },
+    "editedLoans": {
+      "title": "طلبات القروض المعدلة"
+    },
+    "data": {
+      "title": "بيانات",
+      "titleCollapsed": "د",
+      "dataUpload": "تحميل البيانات",
+      "transactionHeader": " المعاملات"
+    },
+    "images": {
+      "title": "صور",
+      "titleCollapsed": "ص",
+      "imagesUpload": "رفع الصور ",
+      "imagesHeader": "الصور",
+      "renamedImages": "صور لم يتم تسميتها"
+    }
+  },
+  "Drawer": {
+    "drawer-description": "الشحن سريع وسهل",
+    "allBanks": "جميع البنوك",
+    "headerUpload": "تحميل رؤوس الملف",
+    "bankDataUpload": "تحميل بيانات البنك",
+    "dataUpload": "تحميل البيانات",
+    "codedData": "البيانات المكودة",
+    "uncodedData": "البيانات غير مكودة",
+    "closeMenu": "إغلاق"
+  },
+  "Home": {
+    "title": "مرحباً بكم في نظام ABS",
+    "description": "شاهد الخطوات التي عليك اتباعها لتحقيق أهدافك",
+    "stepOne": "شاهد كافة البنوك",
+    "stepOneDescription": "يمكنك رؤية جميع البنوك في مكان واحد",
+    "stepTwo": "تحميل الرأس",
+    "stepTwoDescription": "يمكنك تحميل رأس البنك",
+    "stepThree": "مطابقة",
+    "stepThreeDescription": "يمكنك مطابقة البيانات",
+    "stepFour": "تكويد البيانات",
+    "stepFourDescription": "يمكنك إضافة الكود التلقائي إلى البيانات",
+    "stepFive": "انظر البيانات غير مكودة",
+    "stepFiveDescription": "يمكنك رؤية البيانات غير مكودة وترميزها يدويًا",
+    "startBtn": "ابدأ"
+  },
+  "LoanFunds": {
+    "title": "صناديق القروض",
+    "noLoanFunds": "لا يوجد صناديق قروض",
+    "bankName": "اسم البنك",
+    "loanType": "نوع القرض",
+    "minAmount": "الحد الأدنى للمبلغ",
+    "maxAmount": "الحد الأقصى للمبلغ",
+    "interestRate": "معدل الفائدة",
+    "minDuration": "الحد الأدنى للمدة",
+    "maxDuration": "الحد الأقصى للمدة",
+    "reqDuration": "المدة المطلوبة",
+    "reqAmount": "المبلغ المطلوب",
+    "reqLoanTitle": "طلب قرض",
+    "reqBtn": "طلب",
+    "actions": "الإجراءات",
+    "investBtn": "استثمر",
+    "investAmountTitle": "مبلغ الاستثمار",
+    "confirmInvestBtn": "استثمر",
+    "confirmRequestBtn": "طلب",
+    "amortizationBtn": "حساب جدول الاستهلاك",
+    "amountPlaceholder": "ادخل مبلغ الاستثمار",
+    "investmentSuccess": "تم الاستثمار بنجاح!",
+    "investmentError": "حدث خطأ",
+    "unexpectedError": "حدث خطأ غير متوقع"
+  },
+  "CreateLoanFunds": {
+    "title": "إضافة صندوق قرض",
+    "loanTypePlaceholder": "نوع القرض",
+    "minAmountPlaceholder": "الحد الأدنى للمبلغ",
+    "maxAmountPlaceholder": "الحد الأقصى للمبلغ",
+    "interestRatePlaceholder": "معدل الفائدة",
+    "selectMinDuration": "الحد الأدنى للمدة",
+    "selectMaxDuration": "الحد الأقصى للمدة",
+    "addBtn": "إضافة"
+  },
+  "RequestedLoans": {
+    "title": "صناديق القروض",
+    "noLoanFunds": "لا يوجد صناديق قروض",
+    "bankName": "اسم البنك",
+    "loanType": "نوع القرض",
+    "minAmount": "الحد الأدنى للمبلغ",
+    "maxAmount": "الحد الأقصى للمبلغ",
+    "interestRate": "معدل الفائدة",
+    "minDuration": "الحد الأدنى للمدة",
+    "maxDuration": "الحد الأقصى للمدة",
+    "reqAmount": "المبلغ  المطلوب",
+    "reqDuration": "المدة المطلوبة",
+    "monthlyIncome": "الدخل الشهري",
+    "status": "الحالة",
+    "actions": "الإجراءات",
+    "approveBtn": "لموافقة",
+    "rejectBtn": "الإلغاء",
+    "editBtn": "تعديل",
+    "approveTitle": "تأكيد الموافقة",
+    "approveDescription": "هل أنت متأكد من موافقتك على هذا الطلب؟",
+    "rejectTitle": "تأكيد الإلغاء",
+    "rejectDescription": "هل أنت متأكد من إلغاء هذا الطلب؟",
+    "confirm": "تأكيد",
+    "editTitle": "تعديل الطلب",
+    "investAmountTitle": "مبلغ الاستثمار",
+    "confirmInvestBtn": "استثمر",
+    "amountPlaceholder": "ادخل مبلغ الاستثمار",
+    "investmentSuccess": "تم الاستثمار بنجاح!",
+    "investmentError": "حدث خطأ",
+    "unexpectedError": "حدث خطأ غير متوقع",
+    "noRequestedLoans": "لا يوجد طلبات قروض"
+  },
+  "Pagination": {
+    "previous": "السابق",
+    "next": "التالي",
+    "page": "الصفحة",
+    "of": "من"
+  }
+}

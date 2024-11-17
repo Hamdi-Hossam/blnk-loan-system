@@ -1,0 +1,221 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fallback */
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Global styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+a,
+input {
+  user-select: none;
+}
+
+.home-heading {
+  font-size: 4rem;
+}
+@media screen and (max-width: 768px) {
+  .home-heading {
+    font-size: 2rem;
+  }
+}
+
+.home-description {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 768px) {
+  .home-description {
+    font-size: 1rem;
+  }
+}
+
+.all-banks table,
+.all-subaccounts table {
+  margin-top: 2rem;
+}
+
+.all-banks-header,
+.all-subaccounts-header,
+.header-upload,
+.data-upload,
+.data-coded,
+.data-uncoded {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .all-banks-header,
+  .all-subaccounts-header,
+  .header-upload,
+  .data-upload {
+    margin-top: 0.5rem;
+  }
+}
+
+.data-uncoded > div,
+.data-uncoded .buttons {
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .data-uncoded th {
+    text-align: center;
+  }
+}
+
+.all-banks {
+  height: 70%;
+  /* overflow-y: scroll; */
+}
+.data-upload {
+  height: 85%;
+}
+.all-banks-header h1,
+.all-subaccounts h1,
+.header-upload h1,
+.data-upload h1,
+.data-coded h1,
+.data-uncoded h1 {
+  font-size: 1.5rem;
+}
+
+.header-upload .headers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style-type: disc;
+}
+
+.data-upload-content {
+  padding: 1rem 0;
+}
+
+table thead {
+  background-color: #2a2d83;
+}
+
+table thead tr th {
+  color: #fff !important;
+}
+
+.transform-component-module_content__FBWxo {
+  justify-content: center;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 241 49% 27%;
+    --card: 0 0% 100%;
+    --card-foreground: 241 49% 27%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 241 49% 27%;
+    --primary: 241 49% 27%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 35 100% 48%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 238 20% 90%;
+    --muted-foreground: 238 40% 40%;
+    --accent: 35 80% 90%;
+    --accent-foreground: 35 100% 30%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 238 30% 80%;
+    --input: 238 30% 80%;
+    --ring: 241 49% 27%;
+    --radius: 0.5rem;
+    --chart-1: 241 49% 27%;
+    --chart-2: 35 100% 48%;
+    --chart-3: 210 50% 40%;
+    --chart-4: 160 60% 45%;
+    --chart-5: 300 70% 50%;
+  }
+
+  .dark {
+    --background: 238 66% 10%;
+    --foreground: 0 0% 95%;
+    --card: 238 66% 15%;
+    --card-foreground: 0 0% 95%;
+    --popover: 238 66% 15%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 0 0% 100%;
+    --primary-foreground: 241 49% 27%;
+    --secondary: 35 100% 55%;
+    --secondary-foreground: 238 66% 15%;
+    --muted: 238 40% 25%;
+    --muted-foreground: 238 20% 70%;
+    --accent: 35 80% 30%;
+    --accent-foreground: 35 100% 90%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 238 40% 30%;
+    --input: 238 40% 30%;
+    --ring: 238 66% 60%;
+    --chart-1: 238 66% 60%;
+    --chart-2: 35 100% 55%;
+    --chart-3: 210 60% 60%;
+    --chart-4: 160 70% 55%;
+    --chart-5: 300 80% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+/* globals.css */
+html,
+body {
+  position: relative;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+/* body {
+  overflow: auto;
+} */
+/* overflow: hidden; Prevent scroll on body */
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  margin: 10px 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 5px;
+}
+.max-height-table {
+  height: 65vh;
+}

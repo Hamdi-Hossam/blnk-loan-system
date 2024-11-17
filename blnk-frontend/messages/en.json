@@ -1,0 +1,162 @@
+{
+  "NotFound": {
+    "title": "404 - Page Not Found",
+    "description": "Oops! It seems you've ventured into uncharted territory. The page you're looking for doesn't exist.",
+    "homeBtn": "Go back home"
+  },
+  "LanguageSwitcher": {
+    "toggleLanguage": "Toggle language",
+    "en": "English",
+    "ar": "Arabic"
+  },
+  "ModeSwitcher": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "Login": {
+    "title": "Welcome back",
+    "description": "Enter your details below",
+    "username": "Username",
+    "usernamePlaceholder": "Enter your username",
+    "usernameTooltip": "You can use your username, phone number, or email address",
+    "MinLength": "This field must be at least 8 characters",
+    "MaxLength": "This field must be at most 50 characters",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "loginBtn": "Login",
+    "loginSuccess": "Logged in successfully!",
+    "loginError": "Error occurred",
+    "noScriptsAllowed": "You can't write any script",
+    "unexpectedError": "An unexpected error occurred"
+  },
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+  "Logout": {
+    "logoutBtn": "Logout"
+  },
+  "Header": {
+    "userGreetings": "Welcome back,"
+  },
+  "Sidebar": {
+    "users": {
+      "title": "Users",
+      "titleCollapsed": "U",
+      "allUsers": "All Users"
+    },
+    "loanFunds": {
+      "title": "Loan Funds",
+      "titleCollapsed": "B",
+      "allLoanFunds": "Request Loan",
+      "loans": "Loans",
+      "addLoanFund": "Add Loan Fund",
+      "allSubaccounts": "All sub-accounts",
+      "headerUpload": "Columns mapping"
+    },
+    "loanFundsProv": {
+      "allLoanFunds": "Loan Funds"
+    },
+    "requestedLoans": {
+      "title": "Requested Loans"
+    },
+    "editedLoans": {
+      "title": "Edited Loans"
+    },
+    "data": {
+      "title": "Data",
+      "titleCollapsed": "D",
+      "dataUpload": "Data upload",
+      "transactionHeader": "Transaction Header"
+    },
+    "images": {
+      "title": "Images",
+      "titleCollapsed": "I",
+      "imagesUpload": "Images Upload ",
+      "imagesHeader": "Images Header"
+    }
+  },
+  "Drawer": {
+    "drawer-description": "Ship fast and easy",
+    "allBanks": "All banks",
+    "headerUpload": "Header upload",
+    "bankDataUpload": "Bank data upload",
+    "dataUpload": "Data upload",
+    "codedData": "Coded data",
+    "uncodedData": "Uncoded data",
+    "closeMenu": "Cancel"
+  },
+  "LoanFunds": {
+    "title": "Loan Funds",
+    "noLoanFunds": "There are no loan funds",
+    "bankName": "Bank Name",
+    "loanType": "Loan Type",
+    "minAmount": "Minimum Amount",
+    "maxAmount": "Maximum Amount",
+    "interestRate": "Interest Rate",
+    "minDuration": "Minimum Duration",
+    "maxDuration": "Maximum Duration",
+    "reqDuration": "Requested Duration",
+    "reqAmount": "Requested Amount",
+    "reqLoanTitle": "Request Loan",
+    "reqBtn": "Request",
+    "actions": "Actions",
+    "investBtn": "Invest",
+    "investAmountTitle": "Invest Amount",
+    "confirmInvestBtn": "Invest",
+    "confirmRequestBtn": "Request",
+    "amortizationBtn": "Calculate amortization schedule",
+    "amountPlaceholder": "Enter investment amount",
+    "investmentSuccess": "Investment successful!",
+    "investmentError": "Error occurred",
+    "unexpectedError": "An unexpected error occurred"
+  },
+  "CreateLoanFunds": {
+    "title": "Create Loan Fund",
+    "loanTypePlaceholder": "Loan Type",
+    "minAmountPlaceholder": "Minimum Amount",
+    "maxAmountPlaceholder": "Maximum Amount",
+    "interestRatePlaceholder": "Interest Rate",
+    "selectMinDuration": "Minimum Duration",
+    "selectMaxDuration": "Maximum Duration",
+    "addBtn": "Create"
+  },
+  "RequestedLoans": {
+    "title": "Loan Funds",
+    "noLoanFunds": "There are no loan funds",
+    "bankName": "Bank Name",
+    "loanType": "Loan Type",
+    "minAmount": "Minimum Amount",
+    "maxAmount": "Maximum Amount",
+    "interestRate": "Interest Rate",
+    "minDuration": "Minimum Duration",
+    "maxDuration": "Maximum Duration",
+    "reqAmount": "Requested Amount",
+    "reqDuration": "Requested Duration",
+    "monthlyIncome": "Monthly Income",
+    "status": "Status",
+    "actions": "Actions",
+    "approveBtn": "Approve",
+    "rejectBtn": "Reject",
+    "editBtn": "Edit",
+    "approveTitle": "Approval confirmation",
+    "approveDescription": "Are you sure you want to approve this loan?",
+    "confirm": "Confirm",
+    "rejectTitle": "Rejection confirmation",
+    "rejectDescription": "Are you sure you want to reject this loan?",
+    "editTitle": "Edit Loan Parameters",
+    "investAmountTitle": "Invest Amount",
+    "confirmInvestBtn": "Invest",
+    "amountPlaceholder": "Enter investment amount",
+    "investmentSuccess": "Investment successful!",
+    "investmentError": "Error occurred",
+    "unexpectedError": "An unexpected error occurred",
+    "noRequestedLoans": "There are no requested loans"
+  },
+  "Pagination": {
+    "page": "Page",
+    "of": "Of",
+    "next": "Next",
+    "previous": "Previous"
+  }
+}
