@@ -2,9 +2,6 @@ from django.test import TestCase
 from rest_framework.test import APIClient
 from rest_framework import status
 from django.contrib.auth import get_user_model
-from loans.models import LoanFund, Bank, BankPersonnel
-from rest_framework_simplejwt.tokens import RefreshToken
-from rest_framework.test import APITestCase
 
 # Get the custom user model
 User = get_user_model()
