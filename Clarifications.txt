@@ -2,7 +2,7 @@ The front end is done in Next.js:
 steps to run >>> 1- npm install 2- npm run build 3- npm start or npm run dev to run in the dev mode
 The back end is done in django and django rest frame-work:
 The flow is going that way after running the project:
-1- Use the admin dashboard to create bank and register accounts for the user.
+1- Use the admin dashboard to create bank and register accounts for the user.(a super admin creds => username : Hamdi password : 123456)
 2- The bank perssonel account create loan funds.
 3- The provider account can see all the attached loan funds and choose to invest in it.
 4- The customer can see all the loan funds then choose to request the loan with entering his requested amount and duration (in this step he also can to see the amortization table for the amount he requested and the duration).
@@ -12,5 +12,5 @@ The flow is going that way after running the project:
 8- Now the user can re-edit his request to be in between the new limits and it will go back to the bank personnel.
 9- Now the bank personnel will approve or reject it.
 
-Note: The task was to vague and it needs more time I tried to deliver every thing but the time wasn't enough so I know that there are improvments can be done.
+Note: The task was to vague and it needs more time I tried to deliver every thing but the time wasn't enough so I know that there are improvments can be done like code structure enhancment.
 Thanks in advance.
